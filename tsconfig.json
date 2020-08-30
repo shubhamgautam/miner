@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "lib": ["dom", "es2015", "es2016"],
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "declarationMap": true,
+    "inlineSourceMap": true,
+    "inlineSources": false,
+    "jsx": "react",
+    "declaration": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "preserveWatchOutput": true,
+    "outDir": "./lib"
+  },
+  "exclude": ["node_modules", "**/*.spec.ts"],
+  "include": ["./src/**/*.ts"]
+}

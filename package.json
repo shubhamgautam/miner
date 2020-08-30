@@ -1,0 +1,22 @@
+{
+  "name": "miner",
+  "version": "1.0.0",
+  "description": "package to generate dat",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": "https://github.com/shubhamgautam/miner.git",
+  "author": "Shubham Gautam <shgautam@microsoft.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/node": "^14.0.27",
+    "lodash": "^4.17.20",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.7"
+  }
+}
